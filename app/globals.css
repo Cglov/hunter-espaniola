@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Palette: warm sand base, red-rock clay accent ─────────────── */
+  --color-sand: #f4f0e6; /* base background */
+  --color-sand-deep: #e9e1cf; /* alt section bands */
+  --color-bone: #fbf9f2; /* raised card surface */
+  --color-ink: #211b12; /* primary text, warm near-black */
+  --color-ink-soft: #5c5344; /* secondary text (4.5:1 on sand) */
+  --color-ink-faint: #8a8071; /* hairlines-adjacent, large text only */
+  --color-clay: #a3492a; /* THE accent. red-rock, not orange. */
+  --color-clay-deep: #86391f; /* accent hover / active */
+  --color-night: #171310; /* dark immersive band + hero backdrop */
+  --color-night-soft: #2a231c; /* raised surface on night */
+  --color-sand-on-night: #ece5d5; /* text on night */
+
+  /* ── Type ──────────────────────────────────────────────────────── */
+  --font-display: var(--font-cabinet), "Helvetica Neue", sans-serif;
+  --font-sans: var(--font-satoshi), system-ui, sans-serif;
+
+  --tracking-display: -0.03em;
+
+  /* ── Motion ────────────────────────────────────────────────────── */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.44, 1);
+
+  --animate-prop-spin: prop-spin 0.14s linear infinite;
+  @keyframes prop-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* ── Radii ─────────────────────────────────────────────────────── */
+  --radius-card: 1rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background: var(--color-sand);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-clay);
+    color: var(--color-bone);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 2px;
+  }
+}
+
+@utility text-display {
+  font-family: var(--font-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: 800;
+  line-height: 0.98;
+}
+
+@utility text-eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
