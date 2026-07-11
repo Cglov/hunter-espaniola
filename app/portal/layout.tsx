@@ -22,7 +22,7 @@ export default function PortalLayout({
             href="/"
             className="font-display text-lg font-extrabold tracking-tight text-ink"
           >
-            Hunter Espaniola
+            Apex Visuals
             <span className="sr-only">, back to the main site</span>
           </Link>
           <span className="text-eyebrow text-ink-soft">Client portal</span>

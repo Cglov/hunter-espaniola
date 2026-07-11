@@ -11,7 +11,7 @@ import { GearBenefits } from "@/components/about/GearBenefits";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Hunter Espaniola is an FAA Part 107 certified drone pilot from St. George, Utah, filming real estate across Washington County: luxury estates, standard listings, and land. Packages starting at $500.",
+    "Apex Visuals is an FAA Part 107 certified drone pilot from St. George, Utah, filming real estate across Washington County: luxury estates, standard listings, and land. Packages starting at $500.",
 };
 
 export default function AboutPage() {
@@ -60,7 +60,7 @@ export default function AboutPage() {
                 <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
                   <Image
                     src="/images/about-portrait.jpg"
-                    alt="Hunter Espaniola standing in the Southern Utah desert at golden hour, red rock behind him"
+                    alt="Apex Visuals standing in the Southern Utah desert at golden hour, red rock behind him"
                     fill
                     priority
                     sizes="(min-width: 1024px) 480px, (min-width: 768px) 42vw, 100vw"
@@ -68,7 +68,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <figcaption className="mt-3 text-sm text-ink-soft">
-                  Hunter Espaniola. Remote pilot, St. George, Utah.
+                  Apex Visuals. Remote pilot, St. George, Utah.
                 </figcaption>
               </figure>
             </Reveal>

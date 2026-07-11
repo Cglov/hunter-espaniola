@@ -12,7 +12,7 @@ import { SITE } from "@/lib/site";
  * refunds from the dashboard so each hold can be returned after the call.
  */
 const CAL_NAMESPACE = "intro-call";
-const CAL_LINK = "hunter-espaniola/intro-call";
+const CAL_LINK = "apex-visuals/intro-call";
 const BRAND_COLOR = "#a3492a"; // clay — matches --color-clay in globals.css
 
 type EmbedStatus = "loading" | "ready" | "failed";

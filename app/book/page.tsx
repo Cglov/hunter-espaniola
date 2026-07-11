@@ -8,7 +8,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Book a Call",
   description:
-    "Book a 15-minute intro call with Hunter Espaniola. Aerial and ground real estate media for St. George and Southern Utah listings, starting at $500 per property.",
+    "Book a 15-minute intro call with Apex Visuals. Aerial and ground real estate media for St. George and Southern Utah listings, starting at $500 per property.",
 };
 
 const HOLD_STEPS = ["Pick a time", "$10 hold", "Refunded after the call"];

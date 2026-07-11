@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project?.caseStudy) return { title: "Work" };
   return {
     title: project.title,
-    description: `Case study: a ${project.category.toLowerCase()} shoot in ${project.location}. Aerial film and stills by Hunter Espaniola, Southern Utah.`,
+    description: `Case study: a ${project.category.toLowerCase()} shoot in ${project.location}. Aerial film and stills by Apex Visuals, Southern Utah.`,
   };
 }
 

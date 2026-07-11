@@ -69,6 +69,6 @@ with real listings (title, location, category, cover image) as shoots happen.
 - $500 package exact inclusions + turnaround → `app/services/page.tsx`
 - Cal.com: create the `intro-call` event type, install the Stripe app on it with
   a $10 charge, refund manually after each call → `components/book/CalEmbed.tsx`
-  (`calLink` currently `hunter-espaniola/intro-call`)
+  (`calLink` currently `apex-visuals/intro-call`)
 - Real testimonials → home Testimonials section (currently visibly sample-labeled)
-- Domain: metadata assumes `hunterespaniola.com` → `app/layout.tsx`
+- Domain: metadata assumes `apexvisuals.com` → `app/layout.tsx`

@@ -9,7 +9,7 @@ import { WorkGrid } from "@/components/work/WorkGrid";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Recent real estate film and photo shoots across St. George, Ivins, and Washington County: luxury estates, standard listings, and land. Aerial and ground media by Hunter Espaniola.",
+    "Recent real estate film and photo shoots across St. George, Ivins, and Washington County: luxury estates, standard listings, and land. Aerial and ground media by Apex Visuals.",
 };
 
 export default function WorkPage() {

@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col gap-12 md:flex-row md:items-start md:justify-between">
           <div className="max-w-sm">
             <p className="font-display text-2xl font-extrabold tracking-tight">
-              Hunter Espaniola
+              Apex Visuals
             </p>
             <p className="mt-2 text-sm text-sand-on-night/70">
               {SITE.tagline}. Serving {SITE.serviceArea}.
@@ -68,7 +68,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col gap-2 border-t border-sand-on-night/15 pt-6 text-xs text-sand-on-night/65 sm:flex-row sm:justify-between">
           <p>
-            © {new Date().getFullYear()} Hunter Espaniola. All rights
+            © {new Date().getFullYear()} Apex Visuals. All rights
             reserved.
           </p>
           <p>Aerial &amp; ground real estate media, Southern Utah.</p>

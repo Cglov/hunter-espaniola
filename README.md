@@ -1,4 +1,4 @@
-# Hunter Espaniola — Real Estate Media, Southern Utah
+# Apex Visuals — Real Estate Media, Southern Utah
 
 Premium marketing site for a Southern Utah real-estate drone videographer.
 Next.js 16 (App Router) · Tailwind CSS v4 · TypeScript · motion.
@@ -29,7 +29,7 @@ start` on :3000); `scripts/fly.mjs` walks the hero flight end-to-end.
 
 1. **Cal.com** — create the `intro-call` event type (15 min), install the
    Stripe app on it with a **$10 charge**, refund manually after each call.
-   The embed points at `hunter-espaniola/intro-call`
+   The embed points at `apex-visuals/intro-call`
    (`components/book/CalEmbed.tsx`).
 2. **Contact details** — real phone/email/Instagram in `lib/site.ts`.
 3. **Copy confirmations** — everything marked `TODO(hunter)` (grep for it):
@@ -39,7 +39,7 @@ start` on :3000); `scripts/fly.mjs` walks the hero flight end-to-end.
    fly-through chaining rule for replacing it with real footage.
 5. **Testimonials** — sample-labeled until real quotes exist
    (`components/home/Testimonials.tsx`).
-6. **Domain** — metadata assumes `hunterespaniola.com` (`app/layout.tsx`).
+6. **Domain** — metadata assumes `apexvisuals.com` (`app/layout.tsx`).
 7. **Client portal** — `/portal` (client dashboard), `/portal/admin` (Hunter's
    upload page), backed by Supabase project `hunter-espaniola-portal`
    (`vdabjotsffgdpceymjzs`): email/password auth, a `profiles` +
@@ -47,8 +47,8 @@ start` on :3000); `scripts/fly.mjs` walks the hero flight end-to-end.
    row-level security so clients only ever see their own files. Set
    `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` in Vercel
    (values in `.env.example` / `.env.local`). Two seeded test accounts —
-   `hunter@hunterespaniola.com` (admin) and
-   `democlient@hunterespaniola.com` — **change or delete both before
+   `hunter@apexvisuals.com` (admin) and
+   `democlient@apexvisuals.com` — **change or delete both before
    launch**. Make Hunter's real account the admin with:
    `update public.profiles set is_admin = true where email = '<his email>';`
    The free Supabase tier caps single uploads at 50 MB — plenty for 1080p

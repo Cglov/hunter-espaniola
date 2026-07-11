@@ -11,7 +11,7 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { FinalCta } from "@/components/home/FinalCta";
 
 export const metadata: Metadata = {
-  title: { absolute: "Hunter Espaniola · Real Estate Media, Southern Utah" },
+  title: { absolute: "Apex Visuals · Real Estate Media, Southern Utah" },
   description:
     "Cinematic aerial films and stills for St. George and Washington County listings. FAA Part 107 certified drone pilot. Starting at $500 per property.",
 };

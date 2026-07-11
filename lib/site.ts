@@ -6,12 +6,12 @@
 export const CTA_LABEL = "Book a Call"; // the ONE label. Never alternate.
 
 export const SITE = {
-  name: "Hunter Espaniola",
+  name: "Apex Visuals",
   tagline: "Real Estate Media, Southern Utah",
   serviceArea: "St. George, Washington County & surrounding Southern Utah", // TODO(hunter): confirm radius
   phone: "(435) 555-0142", // TODO(hunter): real number
-  email: "hunter@hunterespaniola.com", // TODO(hunter): real email
-  instagram: "https://instagram.com/hunterespaniola", // TODO(hunter): real handle
+  email: "hello@apexvisuals.com", // TODO(hunter): real email
+  instagram: "https://instagram.com/apexvisuals", // TODO(hunter): real handle
   startingPrice: "$500",
 };
 

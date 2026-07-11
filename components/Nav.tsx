@@ -95,7 +95,7 @@ export function Nav({ overlay = false }: { overlay?: boolean }) {
           href="/"
           className="font-display text-lg font-extrabold tracking-tight"
         >
-          Hunter Espaniola
+          Apex Visuals
           <span className="sr-only">, home</span>
         </Link>
 

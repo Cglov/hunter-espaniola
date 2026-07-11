@@ -21,14 +21,14 @@ const satoshi = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Hunter Espaniola · Real Estate Media, Southern Utah",
-    template: "%s · Hunter Espaniola",
+    default: "Apex Visuals · Real Estate Media, Southern Utah",
+    template: "%s · Apex Visuals",
   },
   description:
     "FAA-certified aerial and ground videography for Southern Utah listings. Cinematic property films that help homes near Zion, St. George, and Washington County sell faster. Starting at $500.",
-  metadataBase: new URL("https://hunterespaniola.com"),
+  metadataBase: new URL("https://apexvisuals.com"),
   openGraph: {
-    title: "Hunter Espaniola · Real Estate Media, Southern Utah",
+    title: "Apex Visuals · Real Estate Media, Southern Utah",
     description:
       "FAA-certified aerial and ground videography for Southern Utah listings. Starting at $500 per property.",
     type: "website",

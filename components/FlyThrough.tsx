@@ -89,7 +89,7 @@ const GLASS_PANELS: Record<
   },
   4: {
     eyebrow: "Meet your pilot",
-    title: "Hunter Espaniola",
+    title: "Apex Visuals",
     body: "FAA certified and based in Southern Utah, so I know this light and this rock. I fly tight interior lines most pilots will not attempt, like this pass over the bed.",
     pos: "md:left-[7%] md:right-auto md:top-[24%]",
   },
@@ -332,7 +332,7 @@ export function FlyThrough() {
     >
       {/* One stable page h1 — the visual titles below swap during the flight. */}
       <h1 className="sr-only">
-        Hunter Espaniola, real estate drone media in Southern Utah. Fly the
+        Apex Visuals, real estate drone media in Southern Utah. Fly the
         drone through a listing.
       </h1>
       {/* ── Stills: previous + current + next stay mounted, so both flight
@@ -626,7 +626,7 @@ export function FlyThrough() {
             className="absolute inset-x-0 bottom-[10%] z-40 px-5 text-center outline-none"
           >
             <p className="text-eyebrow text-sand-on-night/80">
-              Hunter Espaniola · Real Estate Media, Southern Utah
+              Apex Visuals · Real Estate Media, Southern Utah
             </p>
             <p className="text-display mx-auto mt-3 max-w-3xl text-4xl text-bone sm:text-6xl md:text-7xl">
               Your listing deserves this view.
